@@ -1,10 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+#indexBody{
+	background-image: url("");
+		 background-size: $backgroundsize;
+ }
+ header {
+ padding : 10px;
+	   color: white;
+	   background-color :  grey;
+	   text-align : center;
+	   width:auto;
+	   height:auto;
+	   font-size:60px;
+
+
+ }
+ #treatbody{
+	 background-color : rgb(199, 231, 82);
+ }
+
+
+ nav{
+	 width:auto;
+
+ }
+ @media screen and (max-width: 100px) {
+   nav {
+	 float: none;
+	 width: 100%;
+   }
+ }
+ section{
+	 padding: 10px;
+	 width : 450px;
+ }
+
+ .colorheader{
+	 text-align:center;
+	 font-weight: bold;
+	 color:white;
+
+ }
+ .navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 30px;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
 *{
 	padding: 0;
 	margin: 0;
 }
+
 .wrapper{
-	background: url("/home/srikanth/Desktop/project_srikanth/nature.jpeg") no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
@@ -14,7 +84,7 @@
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(9,67,136,0.5);
+	background: rgba(0,0,0,0.4);
 }
 .navbar .logo{
 	width: 140px;
@@ -41,7 +111,7 @@
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
-	background: ;
+	background: red;
 	border-radius: 2px;
 }
 .wrapper .center{
@@ -75,7 +145,7 @@
 	width: 150px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #;
+	color: #ffb3b3;
 	background: red;
 	outline: none;
 	cursor: pointer;
@@ -89,27 +159,64 @@
 .buttons button:hover{
 	background: #cc0000;
 }
+img{
+	width: 100px;
+	height: 100px;
+} */
 
-label {
-  font-weight: bold;
-  font-size: 16px;
+#a1{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 1500px;s
+	height: 500px;
 }
+#a3{
+	position: absolute;
+	left: 20%;
+	top: 85%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 160px;s
+	height: 500px;
+}
+.ul1{
+	.navbar ul li a{
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		padding: 6px 13px;
+		text-decoration: none;
+		transition: .4s;
+	}
+	.navbar ul li a{
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		padding: 6px 13px;
+		text-decoration: none;
+		transition: .4s;
+	}
+	.navbar ul li a{
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		padding: 6px 13px;
+		text-decoration: none;
+		transition: .4s;
+	}
+	.navbar ul1{
+		font-size: 40px;
+		font-family: 'Roboto', sans-serif;
+		color: white;
+		padding: 6px 13px;
+		text-decoration: none;
+		transition: .4s;
 
-#submit_button {
-  background-color: #B22222;
-  height: 30px;
-  width: 20%;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-input, textarea {
-  background-color: #D3D3D3;
-  color: #2F4F4F;
-  width: 250px;
-  margin-bottom: 10px;
-  box-shadow: 5px 5px 2px 2px #696969;
-}
-#v9{
-	position: absolute;top: 610px
-}
+	}
+	#sri{
+		position: absolute;
+		width: 600px;
+		top: 100px
+	}
